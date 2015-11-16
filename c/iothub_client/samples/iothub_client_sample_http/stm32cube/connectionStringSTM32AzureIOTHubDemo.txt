@@ -1,0 +1,1 @@
+HostName=sensortocloud.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=c6qat1YabZG1grILfaljKJquU7MgeZlTcpg3xXhIttk=
