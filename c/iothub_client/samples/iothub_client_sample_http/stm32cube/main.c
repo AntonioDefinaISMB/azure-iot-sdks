@@ -103,11 +103,6 @@ void AssignInternetSettings(void)
 
 int CheckAzureIOTConfigurationParameters(void)
 {
-    if(strcmp(AZUREIOTHUBCONNECTIONSTRING,AZUREIOTHUBCONNECTIONSTRING_INVALID)==0)
-    {
-      printf("\r\nUSER ERROR! The Connection String has not been set \r\n(Check AzureIOTSDKConfig.h headers)\r\n");
-      return -1;
-    }
     if(strcmp(DEFAULT_SSID,DEFAULT_SSID_INVALID)==0 || strcmp(DEFAULT_SECUREKEY,DEFAULT_SECUREKEY_INVALID)==0)
     {
       printf("\r\nUSER ERROR! WiFi Parameters are not set! \r\n(Check AzureIOTSDKConfig.h headers)\r\n");
