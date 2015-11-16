@@ -3,7 +3,7 @@
 ## Pre-requirements ##
 
 The porting is available for STM32 Nucleo F4 board equipped with Wi-Fi STM32_SPWF01SA. Moreover, it is necessary to have access to Azure subscription and create an Azure IOT Hub (see the instruction in [Azure IOT Hub web portal](https://azure.microsoft.com/services/iot-hub/ "Azure IOT Hub web portal"). Alternatively, it is possible to access to a demo IOT Hub with connection string included in file `connectionStringSTM32AzureIOTHubDemo.txt` 
-[comment]: <> ([N.B.: To be agreed between ST and Microsoft])
+[//]: # ([N.B.: To be agreed between ST and Microsoft])
 In any case, it is necessary to get the connection string to the global IOT Hub and follow the instruction in order to create a dedicated device connection or accessing to a pre-existing one and extracting the dedicated connection string to set inside the source code (see [Device Explorer Instructions](https://github.com/Azure/azure-iot-sdks/blob/master/tools/DeviceExplorer/doc/how_to_use_device_explorer.md "Device Explorer Instructions")). Moreover, considering the size of the project, an IAR full license is required, see [IAR WebSite](https://www.iar.com/iar-embedded-workbench/ "IAR website") for further information.
 
 ## Instructions ##
