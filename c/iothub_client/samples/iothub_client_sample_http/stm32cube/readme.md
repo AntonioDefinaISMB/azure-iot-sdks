@@ -12,7 +12,7 @@ The steps to follow in order to compile and deploy the Azure IOT SDK porting for
 [//]: # (ST is in charge to decide if use zip file or GIT)
 1. Install IAR Embedded Workbench;
 2. Download the missing source code, including the IAR project. There are two possible solutions:
-	1. Clone STM32 Git launching script from GIT bash [N.B. adding credential?];
+	1. Clone STM32 Git launching script from GIT bash;
 	2. Download and unzip the archive containing the source code.
 3. Go to `STM32CubeGeneratedFolder`\Projects\EWARM\STM32F401RE-Nucleo\ and open Project.eww. NOTE: Pay attention to the global length of the path. Suggestion: it is better to avoid to clone Azure IOT SDK GIT in nested subfolder!
 4. Open AzureIOTSDKConfigUser.h and set:
